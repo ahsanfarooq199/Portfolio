@@ -1,13 +1,10 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import myImg from "../../Assets/avatar.svg";
+import { AiFillGithub } from "react-icons/ai";
+import { Container, Row, Col } from "react-bootstrap";
+import { FaLinkedinIn, FaReact, FaNodeJs } from "react-icons/fa";
+import { SiUpwork, SiFiverr, SiMongodb, SiExpress } from 'react-icons/si'
 
 function Home2() {
   return (
@@ -20,20 +17,20 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              something, I think… 🤷
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Javascript, ReactJs, React Redux, NodeJs. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                also in areas related to
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  &nbsp; Crypto BlockChain and Web3.
                 </b>
               </i>
               <br />
@@ -42,13 +39,13 @@ function Home2() {
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
-                  {" "}
+                  &nbsp;
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> Vue.js and Next.js</b>
               </i>
             </p>
           </Col>
@@ -56,6 +53,54 @@ function Home2() {
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
+            <Col md={12} className="mern-stack">
+
+              <ul className="home-about-social-links">
+                <li className="social-icons">
+                  <a
+                    href="https://www.mongodb.com/cloud/atlas/lp/try2?utm_content=rlsavisitor&utm_source=google&utm_campaign=gs_emea_rlsamulti_search_core_brand_atlas_desktop_rlsa&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=14412646455&adgroup=131761126492"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+                    <SiMongodb />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://www.expressjs.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+                    <SiExpress />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://reactjs.org/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+
+                    <FaReact />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://nodejs.org/en/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+
+                    <FaNodeJs />
+                  </a>
+                </li>
+
+              </ul>
+            </Col>
           </Col>
         </Row>
         <Row>
@@ -67,7 +112,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/ZahidNoor7"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +122,27 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://www.upwork.com/freelancers/~01d4a0d725741c3f27"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <SiUpwork />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.fiverr.com/muhammadzahid_"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiFiverr />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.linkedin.com/in/muhammad-zahid-noor-aa72561aa/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,7 +150,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://www.instagram.com/s.o.u.m.y.a_j.i.t/"
                   target="_blank"
@@ -104,7 +159,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>
