@@ -1,14 +1,14 @@
 <h2 align="center">
-  Portfolio Website - v1.0<br/>
-  <a href="http://soumya-jit.tech/" target="_blank">Muhammad Zahid Noor</a>
+  Portfolio Website<br/>
+  <a href="https://portfolio-31n6ho29h-zahidnoor7.vercel.app/" target="_blank">Muhammad Zahid Noor</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Cover" src="./Images/cover-img.png" />
 </div>
 
 <br/>
 
-<center>
+<center align="center">
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
